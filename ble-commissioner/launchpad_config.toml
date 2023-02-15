@@ -1,0 +1,8 @@
+esp_toml_version = 1.0
+firmware_images_url = "https://PSONALl.github.io/ble-commissioner/"
+
+supported_apps = ["ESP32S3_Device_1"]
+
+[ESP32S3_Device_1]
+chipsets = ["ESP32S3"]
+image.esp32s3 = "ble-commissioner-esp32s3.bin"
